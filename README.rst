@@ -1,5 +1,5 @@
-static-django-twitter-bootstrap
-===============================
+django-bootstrap-staticfiles
+============================
 
 This package provides a Django_ app whose ``static`` folder contains the
 compiled assets of `Twitter Bootstrap`_.
@@ -19,7 +19,7 @@ Setup
 
     INSTALLED_APPS = (
         ...
-        'static_django_twitter_bootstrap',
+        'django_bootstrap_staticfiles',
         ...
     )
 

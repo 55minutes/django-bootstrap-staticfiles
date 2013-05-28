@@ -2,11 +2,11 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="static-django-twitter-bootstrap",
+    name="django-bootstrap-staticfiles",
     version="2.3.2",
     packages=find_packages(),
     package_data={
-        'static_django_twitter_bootstrap': [
+        'django_bootstrap_staticfiles': [
             'static/css/*.css',
             'static/img/*.png',
             'static/js/bootstrap-*.js',
@@ -19,8 +19,8 @@ setup(
     description="Django app that provides compiled Bootstrap assets",
     license="MIT",
     keywords="django app staticfiles twitter bootstrap",
-    url="https://github.com/55minutes/static-django-twitter-bootstrap",
-    download_url="http://pypi.python.org/pypi/static-django-twitter-bootstrap",
+    url="https://github.com/55minutes/django-bootstrap-staticfiles",
+    download_url="http://pypi.python.org/pypi/django-bootstrap-staticfiles",
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Environment :: Web Environment',

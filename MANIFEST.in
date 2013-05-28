@@ -2,7 +2,7 @@ include *.rst
 include LICENSE
 include NOTICE
 include setup.py
-include static_django_twitter_bootstrap/*.py
-include static_django_twitter_bootstrap/static/css/*.css
-include static_django_twitter_bootstrap/static/img/*.png
-include static_django_twitter_bootstrap/static/js/*.js
+include django_bootstrap_staticfiles/*.py
+include django_bootstrap_staticfiles/static/css/*.css
+include django_bootstrap_staticfiles/static/img/*.png
+include django_bootstrap_staticfiles/static/js/*.js
