@@ -10,9 +10,9 @@ setup(
     packages=find_packages(),
     package_data={
         'twitter_bootstrap': [
+            'static/css/*.css',
             'static/img/*.png',
             'static/js/bootstrap-*.js',
-            'static/less/*.less',
         ],
     },
 
