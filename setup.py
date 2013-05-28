@@ -18,7 +18,7 @@ setup(
     author_email="george@55minutes.com",
     description=(
         "Provides a Django app whose static folder contains Twitter Bootstrap "
-        "static assets"
+        "compiled assets"
     ),
     license="MIT",
     keywords="django app staticfiles twitter bootstrap",
@@ -29,7 +29,7 @@ setup(
         'Environment :: Web Environment',
         'Framework :: Django',
         'Intended Audience :: Developers',
-        'License :: OSI Approved :: MIT License',
+        'License :: OSI Approved :: Apache Software License',
         'Programming Language :: Python',
         'Programming Language :: Python :: 2.7',
         'Topic :: Software Development :: Libraries',
