@@ -1,15 +1,12 @@
 # -*- coding: utf-8 -*-
-
-
 from setuptools import setup, find_packages
 
-
 setup(
-    name="django-twitter-bootstrap",
+    name="static-django-twitter-bootstrap",
     version="2.3.2",
     packages=find_packages(),
     package_data={
-        'twitter_bootstrap': [
+        'static_django_twitter_bootstrap': [
             'static/css/*.css',
             'static/img/*.png',
             'static/js/bootstrap-*.js',
@@ -17,15 +14,18 @@ setup(
     },
 
     # metadata for upload to PyPI
-    author="Steven Cummings",
-    author_email="cummingscs@gmail.com",
-    description="Provides a Django app whose static folder contains Twitter Bootstrap assets",
+    author="George Song",
+    author_email="george@55minutes.com",
+    description=(
+        "Provides a Django app whose static folder contains Twitter Bootstrap "
+        "static assets"
+    ),
     license="MIT",
     keywords="django app staticfiles twitter bootstrap",
-    url="https://github.com/estebistec/django-twitter-bootstrap",
-    download_url="http://pypi.python.org/pypi/django-twitter-bootstrap",
+    url="https://github.com/55minutes/static-django-twitter-bootstrap",
+    download_url="http://pypi.python.org/pypi/static-django-twitter-bootstrap",
     classifiers=[
-        'Development Status :: 4 - Beta',
+        'Development Status :: 5 - Production/Stable',
         'Environment :: Web Environment',
         'Framework :: Django',
         'Intended Audience :: Developers',

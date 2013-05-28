@@ -1,1 +1,1 @@
-See https://github.com/estebistec/django-twitter-bootstrap
+See https://github.com/55minutes/static-django-twitter-bootstrap.

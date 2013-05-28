@@ -1,8 +1,9 @@
 file 'build/bootstrap.zip', 'http://twitter.github.io/bootstrap/assets/bootstrap.zip' do |fp|
   build_dir = File.dirname(fp)
   unzipped_dir = File.join(build_dir, 'bootstrap')
-  static_dir = 'twitter_bootstrap/static'
+  static_dir = 'static_django_twitter_bootstrap/static'
   system "cd #{build_dir} && unzip -o #{File.basename(fp)}"
   system "rm -rf #{static_dir}/*"
+  system "mkdir -p #{static_dir}"
   system "mv -f #{unzipped_dir}/* #{static_dir}"
 end
