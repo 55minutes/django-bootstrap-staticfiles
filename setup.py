@@ -16,10 +16,7 @@ setup(
     # metadata for upload to PyPI
     author="George Song",
     author_email="george@55minutes.com",
-    description=(
-        "Provides a Django app whose static folder contains Twitter Bootstrap "
-        "compiled assets"
-    ),
+    description="Django app that provides compiled Bootstrap assets",
     license="MIT",
     keywords="django app staticfiles twitter bootstrap",
     url="https://github.com/55minutes/static-django-twitter-bootstrap",
