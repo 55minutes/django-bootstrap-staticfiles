@@ -11,7 +11,7 @@ Setup
 
 1. Install the app::
 
-    pip install static-django-twitter-bootstrap
+    pip install django-bootstrap-staticfiles
 
 2. Inlude it in your Django project::
 
