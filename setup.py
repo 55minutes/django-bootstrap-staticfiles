@@ -9,7 +9,7 @@ setup(
         'django_bootstrap_staticfiles': [
             'static/css/*.css',
             'static/img/*.png',
-            'static/js/bootstrap-*.js',
+            'static/js/*.js',
         ],
     },
 
