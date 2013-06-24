@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="django-bootstrap-staticfiles",
-    version="2.3.2.1",
+    version="2.3.2.2",
     packages=find_packages(),
     package_data={
         'django_bootstrap_staticfiles': [
