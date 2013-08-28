@@ -2,7 +2,7 @@ django-bootstrap-staticfiles
 ============================
 
 This package provides a Django_ app whose ``static`` folder contains the
-compiled assets of `Twitter Bootstrap`_.
+compiled assets of Bootstrap_.
 
 Each Bootstrap version will be tagged accordingly.
 
@@ -55,4 +55,4 @@ See the License for the specific language governing permissions and
 limitations under the License.
 
 .. _Django: https://www.djangoproject.com
-.. _Twitter Bootstrap: http://twitter.github.io/bootstrap/
+.. _Bootstrap: http://getbootstrap.com
