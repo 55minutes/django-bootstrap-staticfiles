@@ -29,13 +29,15 @@ Setup
 Usage
 -----
 
-If you're not using an asset manager, you can just include them as usual in
-your site templates.::
+If you're not using an asset manager such as django-pipeline_, you can just
+include the Bootstrap .js and .css as usual in your project templates::
 
     {% load staticfiles %}
     ...
     <script type="text/javascript" src="{% static 'js/bootstrap.min.js' %}"></script>
     ...
+
+For more information about ``django.contrib.staticfiles``, refer to the `Django documentation`_.
 
 Copyright and license
 ---------------------
@@ -56,3 +58,5 @@ limitations under the License.
 
 .. _Django: https://www.djangoproject.com
 .. _Bootstrap: http://getbootstrap.com
+.. _django-pipeline: http://django-pipeline.readthedocs.org/en/latest/
+.. _Django documentation: https://docs.djangoproject.com/en/dev/howto/static-files/
